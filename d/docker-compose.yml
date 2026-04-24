@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    container_name: termbase-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: termbase
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - termbase_pg_data:/var/lib/postgresql/data
+
+volumes:
+  termbase_pg_data:

@@ -1,0 +1,18 @@
+{
+  "name": "termbase-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Concept-oriented termbase management system monorepo",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @termbase/server --filter @termbase/client dev",
+    "dev:server": "pnpm --filter @termbase/server dev",
+    "dev:client": "pnpm --filter @termbase/client dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.0"
+}

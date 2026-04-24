@@ -1,6 +1,9 @@
-## 测试方式
+# DeepSeek V4 vs GPT 5.3
 
-> 盲评时此文件不存在
+> 文末附加 Claude Opus 4.7 和 GPT 5.3 Codex 的测评结果
+> 盲评阶段此文件不存在
+
+## 测试方式
 
 用 GPT 5.4（Copilot pro+ 订阅 2api）和 DS V4 pro api 作为模型提供商，用 claude code cli 要求它们分别在空仓库中根据相同的 README.md 一次性写一个全栈项目并自我迭代直到可以运行为止。中间不提供任何二次提示。
 
@@ -32,12 +35,14 @@
 
 - a/: DeepSeek V4 Pro
 - b/: ChatGPT 5.4 Xhigh
+- c/: ChatGPT 5.3 Codex（后续补充测试）
+- d/: Claude Opus 4.7（后续补充测试）
 
 ## 附加信息
 
 - Gemini 3.1 Pro 在评估时使用了浏览器工具
 
-## 盲评结果
+## V4 vs 5.4 盲评结果
 
 - [Gemini 3.1 Pro 盲评](./GEMINI.md)
 - [Claude Opus 4.7 盲评](./CLAUDE_OPUS.md)
@@ -53,3 +58,7 @@
 - Brainstorm 能力
 
 才能对 V4 整体的代码能力有一个准确的评估。
+
+## 四个模型共同盲评结果
+
+- [Gemini 3.1 Pro 盲评](./GEMINI_4_MODELS.md)
