@@ -4,15 +4,15 @@
 
 用 GPT 5.4（Copilot pro+ 订阅 2api）和 DS V4 pro api 作为模型提供商，用 claude code cli 要求它们分别在空仓库中根据相同的 README.md 一次性写一个全栈项目并自我迭代直到可以运行为止。中间不提供任何二次提示。
 
-初始提示词：
+### 初始提示词
 
-```
+```txt
 开始根据 @/home/ykdz/Desktop/dsv4/README.md 这个文档的规划在这个空目录（仅执行过 pnpm init）中实现所有所需的功能并自行规划测试，直到你认为项目可以正常工作为止。
 ```
 
 写完后用 Claude Opus 4.7 与 Gemini 3.1 Pro（GitHub Copilot Pro+ 直接提供）在 VSCode 内对两个目录的实现盲评并给出报告。
 
-盲评提示词：
+### 盲评提示词
 
 ```
 本目录下有 a 和 b 两个项目的源码，它们出自两个不同的大语言模型 agent，被要求一次性实现 规划文档.md 中的功能。现在公平地对这两个项目代码做出评估，然后将评估写入 README.md。
@@ -31,8 +31,13 @@
 ## 对应关系
 
 a: DeepSeek V4 Pro
-b: ChatGPT 5.4 xhigh
+b: ChatGPT 5.4 Xhigh
 
 ## 附加信息
 
 - Gemini 3.1 Pro 在评估时使用了浏览器工具
+
+## 结果
+
+- [Gemini 3.1 Pro 盲评](./GEMINI.md)
+- [Claude Opus 4.7 盲评](./CLAUDE_OPUS.md)
