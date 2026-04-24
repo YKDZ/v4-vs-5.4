@@ -30,8 +30,8 @@
 
 ## 对应关系
 
-a: DeepSeek V4 Pro
-b: ChatGPT 5.4 Xhigh
+- a/: DeepSeek V4 Pro
+- b/: ChatGPT 5.4 Xhigh
 
 ## 附加信息
 
