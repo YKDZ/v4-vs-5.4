@@ -7,7 +7,7 @@
 ### 初始提示词
 
 ```txt
-开始根据 @/home/ykdz/Desktop/dsv4/README.md 这个文档的规划在这个空目录（仅执行过 pnpm init）中实现所有所需的功能并自行规划测试，直到你认为项目可以正常工作为止。
+开始根据 @README.md 这个文档的规划在这个空目录（仅执行过 pnpm init）中实现所有所需的功能并自行规划测试，直到你认为项目可以正常工作为止。
 ```
 
 写完后用 Claude Opus 4.7 与 Gemini 3.1 Pro（GitHub Copilot Pro+ 直接提供）在 VSCode 内对两个目录的实现盲评并给出报告。
