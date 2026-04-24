@@ -1,6 +1,6 @@
 # DeepSeek V4 vs GPT 5.3
 
-> 文末附加 Claude Opus 4.7 和 GPT 5.3 Codex 的测评结果
+> 文末附加 Claude Opus 4.7 和 GPT 5.3 Codex 的测评结果\
 > 盲评阶段此文件不存在
 
 ## 测试方式
