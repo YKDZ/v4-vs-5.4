@@ -1,0 +1,19 @@
+{
+  "name": "termbase-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "全栈术语库管理系统",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:server": "pnpm --filter @termbase/server run dev",
+    "dev:client": "pnpm --filter @termbase/client run dev",
+    "build": "pnpm -r run build",
+    "db:generate": "pnpm --filter @termbase/server run db:generate",
+    "db:migrate": "pnpm --filter @termbase/server run db:migrate",
+    "db:seed": "pnpm --filter @termbase/server run db:seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.0"
+}

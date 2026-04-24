@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: termbase-db
+    environment:
+      POSTGRES_USER: termbase
+      POSTGRES_PASSWORD: termbase123
+      POSTGRES_DB: termbase
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
