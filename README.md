@@ -37,7 +37,7 @@
 
 - Gemini 3.1 Pro 在评估时使用了浏览器工具
 
-## 结果
+## 盲评结果
 
 - [Gemini 3.1 Pro 盲评](./GEMINI.md)
 - [Claude Opus 4.7 盲评](./CLAUDE_OPUS.md)
